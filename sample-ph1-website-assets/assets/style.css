@@ -1,0 +1,213 @@
+/* header*/
+.title { font-size: 24px}
+a
+{color:blue;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    margin-bottom: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px 0 10px 0;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-list{ 
+    display: flex;
+    color: blue;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-list-item{
+    padding-right: 32px;
+}
+
+.nav-list-icons{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    
+}
+
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.footer-nav{
+    width: 40px;
+}
+
+/*main*/
+section{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.main-img{
+    display: inline-block;
+    width: 100%;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    gap: 4px;
+}
+
+.main-text-head{
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main-text-foot{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.scrool{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate();
+}
+.scrool::before{
+    font-size: 9px;
+    content: "⚫︎";
+    color: aliceblue;
+    margin-right: 0.5rem;
+}
+
+/*main posseとは*/
+.main-posse{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-posse-nav{
+    display: ;
+}
+
+.main2-div{
+    display:grid;
+    place-items: center;
+    list-style: none;
+    padding: 40px;
+}
+
+.main2-nav-head{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.main2-nav-bottom{
+    font-size: 14px;
+    color: blue;
+    padding-bottom: 15px;
+}
+
+
+.main2-posse{
+    display: grid;
+    place-items: center;   
+}
+.main2-content{
+    display: flex;
+    gap: 10px;
+}
+
+.main2-img{
+    width: 470px;
+    height: 312px;
+    border-radius: 0.5rem;
+}
+
+.main2-divitem{
+    display: flex;
+    align-items: center;
+}
+
+/*main イベント*/
+.main-top{
+    display: grid;
+    place-items: center;
+    list-style: none;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.main-top-item{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.main-top-items{
+    font-size: 14px;
+    color: blue;
+    padding-bottom: 30px;
+}
+.main-event{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 20px;
+}
+.event-img{
+    border-radius: 10px;
+}
+.main-body{
+    padding-bottom: 40px;
+}
+.event-ul{
+    display: grid;
+    place-items: center;
+    gap: 6px;
+    background-color: #F7F9FB;
+    border-radius: 10px;
+    padding-bottom: 4px;
+}
+.event-list{
+    background-color: #0071bc;
+    padding: 0 12px 0 12px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.event-list-item{
+    font-size: 18px;
+    font-weight: 600;
+}
