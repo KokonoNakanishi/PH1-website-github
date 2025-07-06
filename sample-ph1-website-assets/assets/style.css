@@ -8,7 +8,7 @@ body{
 a
 {color:blue;
 }
-
+/*ヘッダー*/
 header{
     display: flex;
     width: 100%;
@@ -501,4 +501,7 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+}
+.hamburgermenu{
+    display: none;
 }

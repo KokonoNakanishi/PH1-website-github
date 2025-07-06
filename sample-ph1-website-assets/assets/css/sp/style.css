@@ -1,6 +1,6 @@
 @media(max-width: 767px) {
 
-    section{
+section{
     position: relative;
     margin-bottom: 10px;
 }
@@ -121,6 +121,353 @@
     word-spacing: 10%;
     display: flex;
     justify-content: center;
+}
+
+
+/*main イベント*/
+.main-body{
+    padding-bottom: 40px;
+    overflow: scroll;
+    
+}
+.main-top{
+    place-items: center;
+    list-style: none;
+    padding: 40px 5px 70px 5px;
+}
+.main-top-item{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main-top-items{
+    font-size: 14px;
+    color: blue;
+    padding-bottom: 30px;
+}
+.event-text{
+    line-height: 180%;
+}
+/*イベント４つ並び*/
+.main-event{
+    display: flex;
+    justify-content: flex-start;
+    overflow: scroll;
+    white-space: nowrap; 
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+.event-img{
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 320px;
+    height: 200px;
+}
+.event-item{
+     flex-shrink: 0;      /* 子要素が縮まないように */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央揃え */
+    justify-content: flex-start;
+}
+.event-ul{  
+    place-items: center;
+    gap: 6px;
+    background-color: #F7F9FB;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    flex-shrink: 0;
+}
+.event-list{
+    background-color: #0071bc;
+    padding: 0 12px 0 12px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.event-list-item{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*main 日常生活*/
+.daily-section-head{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 5px 70px 5px;
+}
+.daily-title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    display: flex;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.daily-title-sub{
+    font-size: 14px;
+    color: blue;
+    display: flex;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+
+}
+.daily-title-text{
+    line-height: 180%;
+    margin-bottom: -500px;
+}
+
+
+/*日常生活３つ*/
+.daily-innter{
+    display: flex;
+    flex-direction: row; 
+    overflow-x: scroll;
+    flex-shrink: 0;
+    object-fit: cover;
+    width: 100%;
+    gap: 100px;
+    min-width: none;
+    margin-left: 20px;
+    
+}
+
+/*01ミートアップ*/
+.daily-body-1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    height: 400px;
+    min-width: 350px;
+    margin-top: 400px;
+    padding-right: 40px;
+    margin-right: -30px;
+}
+
+.daily-item-1{
+    width: 100%;
+    padding-left: 30px;
+    margin: 20px;
+
+}
+.daily-heading-1{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.daily-heading-1::before{
+    content: '01';
+    color: #0071bc;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.daily-dates-1{
+}
+.daily-date-1{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.daily-information-1{
+    line-height: 20px;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    width: 300px;
+}
+.daily-img-wrapper-1{
+}
+.daily-img-1{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/*02縦モク*/
+.daily-body-2{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 350px;
+    margin-top: 400px;
+    padding-left: 30px;
+    height: 400px;
+}
+.daily-heading-2{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 20px;
+}
+.daily-heading-2::before{
+    content: '02';
+    color: #0071bc;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+.daily-img-2{
+    width: 350px;
+    height: 200px;
+}
+
+/*03横もく*/
+.daily-body-3{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    min-width: 350px;
+    margin-top: 400px;
+    padding-right: 30px;
+
+}
+.daily-item-3{
+    margin: 20px 20px 20px 40px;
+}
+.daily-heading-3{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.daily-heading-3::before{
+    content: '03';
+    color: #0071bc;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.daily-date-3{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.daily-information-3{
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.daily-img-3{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+}
+
+/*ハンバーガーメニュー*/
+
+/*ヘッダー*/
+header{
+    height: 48px;
+    padding: 12px;
+    width: 100%;
+    outline: none;
+}
+.nav-list{
+    display: none;
+}
+/*ヘッダー*/
+header{
+    height: 48px;
+    padding: 12px;
+    width: 100%;
+    outline: none;
+}
+.nav-list{
+    display: none;
+}
+.header-logo{
+    object-fit: contain;
+    margin-right: 220px;
+}
+.header-button:focus {
+    outline: none;
+}
+
+.header-button{
+    width: 42px;
+    height: 42px;
+    display: block;
+    position: relative;
+
+}
+.header-span{
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 0.8px;
+}
+.header-span::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 27px;
+    width: 30px;
+    height: 2px;
+    display: block;
+}
+.header-button::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 13px;
+    width: 30px;
+    height: 2px;
+    display: block;
+}
+
+.header-button:focus {
+    outline: none;
+}
+
+.header-button{
+    width: 42px;
+    height: 42px;
+    display: block;
+    position: relative;
+
+}
+.header-span{
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 0.8px;
+}
+.header-span::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 27px;
+    width: 30px;
+    height: 2px;
+    display: block;
+}
+.header-button::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 13px;
+    width: 30px;
+    height: 2px;
+    display: block;
 }
 }
 
